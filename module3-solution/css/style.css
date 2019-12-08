@@ -1,0 +1,91 @@
+body {
+	font-size: 16px;
+	font-family: 'montserrat', sans-serif;
+}
+
+.navbar-brand {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px lightblue;
+	color: black !important;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-nav {
+	margin: 0 -15px 0 -15px;
+	padding: 0;
+
+}
+
+#nav-chicken,
+#nav-beef {
+	color: black;
+	border-top: 0.5px solid grey;
+	text-align: center;
+}
+
+#nav-sushi {
+	color: black;
+	border-top: 0.5px solid grey;
+	border-bottom: 0.5px solid grey;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: lightblue;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 35px;
+}
+
+.menu-tile {
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 10px;
+
+}
+
+p {
+	padding: 8px;
+}
+
+/* Large Devices View */
+@media (min-width: 1200px) {
+	.row {
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+}
+
+/* Medium Devices View */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.row {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+}
+
+/* Small Devices View */
+@media (min-width: 768px) and (max-width: 991px) {
+	.row {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+}
+
+/*  Extra Small Devices View */
+@media (max-width: 767px) {
+	.row {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+}
